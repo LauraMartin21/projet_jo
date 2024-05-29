@@ -1,0 +1,467 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.jo_header, .jo_footer {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.jo_header > div > ul {
+    display: flex;
+    align-items: center;
+}
+
+.jo_header > div > img {
+    width: 100%;
+}
+
+.jo_background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/jo_accueil.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    padding-bottom: 80px;
+    background-position-y: center;
+}
+
+
+div > ul > li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.jo_footer > div > p {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 55px;
+    margin-top: -20px;
+}
+
+.jo_content {
+    text-transform: none;
+    text-align: center;
+    color: white;;
+    padding-top: 30px;
+}
+
+.jo_content > h1 {
+    font-weight: bold;
+}
+
+.jo_resabillet {
+    text-transform: uppercase;
+    color: white;
+    background-color: #D7C378;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: none;
+    padding: 10px 18px 10px 18px;
+    font-size: 15px;
+    border: none;
+
+}
+
+.jo_epreuves {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.jo_epreuves > div > div {
+    background-color: #D7C378;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0px 15px 10px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    font-size: 17px;
+    
+}
+
+.jo_epreuves > div > .jo_athle{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0px 15px 10px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    font-size: 17px;
+}
+
+.jo_autresepreuves {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: none;
+    padding: 10px 18px 10px 18px;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+#recherche_site > input, #recherche_site > span > button {
+    border: none;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+#recherche_site {
+    border: solid 1px;
+    border-radius: 30px;
+}
+
+
+.jo_epreuves > div > img {
+    width: 100%;
+    height: 250px;
+}
+
+h2 {
+    font-weight: bold;
+    color: black;
+}
+
+
+#open_popup_natation > i, #open_popup_athletisme > i, #open_popup_aviron > i {
+    transform: rotate(45deg);
+}
+
+#recherche_site > span > button > i {
+    transform: rotate(80deg);
+}
+
+.jo_epreuves > div > div > p, .jo_epreuves > div > .jo_athle > p {
+    margin: 0px;
+}
+
+
+.jo_background_footer {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    z-index: 1;
+    
+
+}
+
+.fa-brands {
+    font-size: 40px !important;
+}
+
+.popup_overlay {
+    display: none !important;
+}
+
+.popup_overlay.open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: block !important;
+    z-index: 2;
+}
+
+.popup_content {
+    max-width: 700px;
+    width: 700px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom-right-radius: 30px;
+
+}
+
+.popup_content > div > div > img {
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+#popup_exit_natation, #popup_exit_athletisme, #popup_exit_aviron {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    
+}
+
+.popup_color {
+    background-color: #D7C378;
+    border-bottom-right-radius: 30px;
+    height: 30px;
+    display: block;
+}
+
+.fa-xmark {
+    color: grey;
+}
+
+
+.popup_button {
+    text-transform: uppercase;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: none;
+    padding: 7px 15px 7px 15px;
+    font-size: 11px;
+    border: solid 1px black;
+   
+}
+
+
+.popup_content > div > div > h2 {
+    font-size: 15px;
+    margin: 0px 0px 20px 0px;
+    font-weight: bold;
+}
+
+.jo_footer > div > img {
+    width: 100%;
+}
+
+.jo_epreuves_description {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  
+    .jo_epreuves > div > img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .jo_epreuves > div > div, .jo_epreuves > div > .jo_athle {
+        font-size: 15px;
+    }
+    
+    .jo_resabillet, .jo_autresepreuves {
+        font-size: 14px;
+    }
+
+    .jo_footer > div > p {
+        font-size: 12px;
+    }
+
+    .jo_footer > div > ul > li {
+        font-size: 12px;
+    
+    }
+
+
+    .fa-brands {
+        font-size: 25px !important;
+    }
+
+    #mobile_jo_header > div > img {
+        width: 20%;
+    }
+
+    
+    .jo_content > h1 {
+        font-size: 30px;
+    }
+
+    .jo_resabillet, .jo_autresepreuves {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .jo_footer > div > img {
+        width: 80%;
+    }
+
+    .popup_content {
+        max-width: 400px;
+    
+    }
+
+    .jo_epreuves_description {
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+
+    .popup_content > div > div > img {
+        padding-right: 30px;
+    }
+
+    #menu_dropdown > li {
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    
+    #mobile_jo_header > div > img {
+        width: 30%;
+    }
+
+    .collapse {
+        display: block !important;
+    }
+
+    .jo_content > h1 {
+        font-size: 25px;
+    }
+
+    .jo_resabillet, .jo_autresepreuves {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .jo_epreuves {
+        width: 100%;
+        max-width: 350px;
+        min-width: 250px;
+        position: relative;
+        margin: auto;
+    }
+
+    .jo_epreuves > div {
+        margin: 15px 0px 15px 0px;
+    }
+
+    .jo_content {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .jo_footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .jo_footer > div > p {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .jo_footer > div > ul {
+        padding-left: 0px;
+    }
+
+    .fa-brands {
+        margin-top: 10px;
+        font-size: 25px !important;
+    }
+
+    .jo_footer > div > ul > li {
+        font-size: 12px;
+    }
+
+    .jo_footer > div > img {
+        width: 60%;
+    }
+
+    .jo_background_footer {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .popup_content {
+        max-width: 300px;
+        position: absolute;
+        margin: auto;
+    
+    }
+
+    .jo_epreuves_description {
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+
+    .popup_content > div > div > img {
+        padding-right: 30px;
+    }
+
+    #menu_dropdown > li {
+        font-size: 13px;
+    }
+    
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    
+    .navbar-collapse.collapse {
+        display: flex !important;
+        align-items: center;
+    }
+
+    .dropdown-toggle {
+        color: white;
+    }
+
+    #menu_dropdown {
+        display: none !important;
+    }
+    
+    #menu_dropdown.open {
+        display: block !important;
+    }
+
+    #menu_dropdown {
+        width: 200px;
+        padding: 10px;
+        color: black;
+        text-transform: uppercase;
+        
+        
+    }
+
+    #menu_dropdown > li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+
+    #recherche_site > input, #recherche_site > span > button {
+        border: none;
+        border-radius: 30px;
+        background-color: transparent;
+        color: black;
+        box-shadow: none;
+    }
+
+    
+    
+
+}
